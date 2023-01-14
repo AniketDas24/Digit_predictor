@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles.css')}}"/>
+        <title>MODEL</title>
+    </head>
+
+    <p style="color: red; text-align: center;font-size: 60px;font-family:italic;">DARKneuron</p>
+    <form role='form' method='POST' action='/'>
+        <p style="text-align:center;"><input type='url'size=60 placeholder ='type image link' name='imagelink'/></p>
+        <p style="text-align:center;"><button type="submit" name='button'>DETECT IMAGE</button></p>
+        <p style="text-align:center;"><img src="{{url_for('static',filename='image.jpeg')}}"/></p>
+        <p style="text-align:center;font-size: 60px;font-family:italic">Digit is {{digit}}</p>
+    </form>
+
+</html>
