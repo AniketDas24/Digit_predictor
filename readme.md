@@ -9,5 +9,3 @@ Model Arcitecture
 <img src="./model.png" alt="Image" width="500" height="750">
 
 Model accuracy under MNIST Datasets = 97.74%
-
-## Installation Tutorial
