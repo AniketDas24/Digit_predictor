@@ -1,5 +1,5 @@
 ## ML model used
-### LeNET 5
+### LeNet-5
 [Paper link](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)         
 [Implementation](github_link)
 
